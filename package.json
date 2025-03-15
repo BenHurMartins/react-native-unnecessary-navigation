@@ -132,13 +132,12 @@
     "rules": {
       "react/react-in-jsx-scope": "off",
       "prettier/prettier": [
-        "error",
+        "warn",
         {
           "quoteProps": "consistent",
-          "singleQuote": true,
-          "tabWidth": 2,
-          "trailingComma": "es5",
-          "useTabs": false
+          "singleQuote": false,
+          "tabWidth": 1,
+          "trailingComma": "es5"
         }
       ]
     }
