@@ -33,6 +33,10 @@ yarn add react-native-unnecessary-navigation
 ✅ Bottom tab navigation support.  
 ✅ Uses React Context to manage navigation state.
 
+
+https://github.com/user-attachments/assets/f8628314-8c19-4656-88d9-cbf543c8965c
+
+
 ---
 
 ## 🛠 Usage
