@@ -33,9 +33,7 @@ yarn add react-native-unnecessary-navigation
 ✅ Bottom tab navigation support.  
 ✅ Uses React Context to manage navigation state.
 
-
 https://github.com/user-attachments/assets/f8628314-8c19-4656-88d9-cbf543c8965c
-
 
 ---
 
@@ -247,6 +245,19 @@ const styles = StyleSheet.create({
   },
 });
 ```
+
+---
+
+### Props
+
+| Prop Name        | Type                      | Description                                                                                                        | Required | Default                             |
+| ---------------- | ------------------------- | ------------------------------------------------------------------------------------------------------------------ | -------- | ----------------------------------- |
+| routerSetup      | Array<Array<RouteConfig>> | A 2D array defining your navigation structure. Each RouteConfig object should contain `component` and `routeName`. | Yes      | -                                   |
+| bottomTab        | React.ReactNode           | Optional. A custom component to render as the bottom tab.                                                          | No       | null                                |
+| easing           | EasingFunction            | Optional. The easing function for the navigation animation.                                                        | No       | `Easing.bezier(0.25, 0.1, 0.25, 1)` |
+| duration         | number                    | Optional. The duration of the navigation animation in milliseconds.                                                | No       | 1000                                |
+| xInitialPosition | number                    | Optional. The initial x position of the navigator.                                                                 | No       | 0                                   |
+| yInitialPosition | number                    | Optional. The initial y position of the navigator.                                                                 | No       | 0                                   |
 
 ---
 
